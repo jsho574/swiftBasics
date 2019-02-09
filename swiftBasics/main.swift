@@ -8,7 +8,7 @@
 
 import Foundation
 
-let smaple1 = 0x3A
+let sample1 = 0x3A
 var sample2 = 58
 var heartRate: UInt8
 heartRate = 85
@@ -33,6 +33,18 @@ greeting = "Hello"
 var name: String
 name = "Karen"
 
+if sample1 == sample2 {
+    print("the samples are equal")
+} else {
+    print("the samples are not equal")
+    }
 
+if heartRate >= 40 && heartRate <= 80 {
+    print("Heart rate is normal")
+}
+
+if deposits >= 100000000 {
+    print("You are exceedinly wealthy")
+}
 
 
